@@ -1,0 +1,22 @@
+# Temporary QA/build tooling used only to visually verify the email template
+# (per the email-template-design skill: never shipped as part of the deliverable)
+node_modules/
+package.json
+package-lock.json
+qa-*.js
+qa-*.png
+preview_check.png
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/swap files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
